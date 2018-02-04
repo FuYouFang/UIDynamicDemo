@@ -10,7 +10,7 @@ import UIKit
 
 class MenuTableViewController: UITableViewController {
     let cellReuseIdentifier = "cell"
-    var dynamicItems: [DynamicType] = [.Gravity]
+    var dynamicItems: [DynamicType] = [.Gravity, .Collision]
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "仿真行为"

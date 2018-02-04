@@ -10,11 +10,14 @@ import UIKit
 
 enum DynamicType {
     case Gravity
+    case Collision
     
     func text() -> String {
         switch self {
         case .Gravity:
             return "重力仿真"
+        case .Collision:
+            return "边缘检测"
         }
     }
     
@@ -22,6 +25,8 @@ enum DynamicType {
         switch self {
         case .Gravity:
             return GravityBehaviorView.self
+        case .Collision:
+            return CollisionBehaviorView.self
         }
     }
 }

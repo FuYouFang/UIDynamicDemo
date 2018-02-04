@@ -21,8 +21,8 @@ class GravityBehaviorView: BaseBehaviorView {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         animator.removeAllBehaviors()
+        imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         animator.addBehavior(gravityBehavior)
     }
 }

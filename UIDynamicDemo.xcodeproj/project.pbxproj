@@ -25,6 +25,9 @@
 		C57417DA2027420600937174 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417D92027420600937174 /* DynamicViewController.swift */; };
 		C57417DB2027420600937174 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417D92027420600937174 /* DynamicViewController.swift */; };
 		C57417DC2027420600937174 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417D92027420600937174 /* DynamicViewController.swift */; };
+		C57417DE20275B9A00937174 /* CollisionBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417DD20275B9A00937174 /* CollisionBehaviorView.swift */; };
+		C57417DF20275B9A00937174 /* CollisionBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417DD20275B9A00937174 /* CollisionBehaviorView.swift */; };
+		C57417E020275B9A00937174 /* CollisionBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57417DD20275B9A00937174 /* CollisionBehaviorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 		C57417D12026A3F300937174 /* BaseBehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBehaviorView.swift; sourceTree = "<group>"; };
 		C57417D520273F3C00937174 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		C57417D92027420600937174 /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		C57417DD20275B9A00937174 /* CollisionBehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionBehaviorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 			children = (
 				C57417D12026A3F300937174 /* BaseBehaviorView.swift */,
 				C57417CD20269C6800937174 /* GravityBehaviorView.swift */,
+				C57417DD20275B9A00937174 /* CollisionBehaviorView.swift */,
 			);
 			path = AnimatorView;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				C57417DA2027420600937174 /* DynamicViewController.swift in Sources */,
 				C57417CE20269C6800937174 /* GravityBehaviorView.swift in Sources */,
 				C57417D620273F3C00937174 /* MenuTableViewController.swift in Sources */,
+				C57417DE20275B9A00937174 /* CollisionBehaviorView.swift in Sources */,
 				C523D1522026939F00535D02 /* AppDelegate.swift in Sources */,
 				C57417D22026A3F300937174 /* BaseBehaviorView.swift in Sources */,
 			);
@@ -299,6 +305,7 @@
 				C57417DB2027420600937174 /* DynamicViewController.swift in Sources */,
 				C57417D720273F3C00937174 /* MenuTableViewController.swift in Sources */,
 				C523D1672026939F00535D02 /* UIDynamicDemoTests.swift in Sources */,
+				C57417DF20275B9A00937174 /* CollisionBehaviorView.swift in Sources */,
 				C57417CF20269C6800937174 /* GravityBehaviorView.swift in Sources */,
 				C57417D32026A3F300937174 /* BaseBehaviorView.swift in Sources */,
 			);
@@ -311,6 +318,7 @@
 				C57417DC2027420600937174 /* DynamicViewController.swift in Sources */,
 				C57417D820273F3C00937174 /* MenuTableViewController.swift in Sources */,
 				C523D172202693A000535D02 /* UIDynamicDemoUITests.swift in Sources */,
+				C57417E020275B9A00937174 /* CollisionBehaviorView.swift in Sources */,
 				C57417D020269C6800937174 /* GravityBehaviorView.swift in Sources */,
 				C57417D42026A3F300937174 /* BaseBehaviorView.swift in Sources */,
 			);
